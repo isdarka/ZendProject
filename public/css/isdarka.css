@@ -1,0 +1,49 @@
+/*
+  Icon Font: isdarka
+*/
+
+@font-face {
+  font-family: "isdarka";
+  src: url("../fonts/isdarka.eot");
+  src: url("../fonts/isdarka.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/isdarka.woff") format("woff"),
+       url("../fonts/isdarka.ttf") format("truetype"),
+       url("../fonts/isdarka.svg#isdarka") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "isdarka";
+    src: url("../fonts/isdarka.svg#isdarka") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-demo:before,
+.icon-isdarka:before,
+.icon-isdarka-text:before {
+  display: inline-block;
+  font-family: "isdarka";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+	position: relative;
+	top:5px;
+	font-size: 30px;
+}
+
+.icon-demo:before { content: "\f107"; }
+.icon-isdarka:before { content: "\f103"; }
+.icon-isdarka-text:before { content: "\f106"; }
+
